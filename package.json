@@ -1,0 +1,8 @@
+{
+  "name": "bopzop-open-source",
+  "private": true,
+  "description": "Small open pieces of bopzop (https://bopzop.trade).",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "workspaces": ["packages/*"],
+  "scripts": { "test": "npm test --workspaces" }
+}

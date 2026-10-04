@@ -1,0 +1,12 @@
+{
+  "name": "pixel-traders",
+  "version": "1.0.0",
+  "description": "Deterministic 16×16 pixel people (bopzop's traders) as tiny SVG strings. Zero dependencies.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "files": ["src", "README.md"],
+  "scripts": { "test": "node --test test/*.test.mjs", "example": "node examples/basic.mjs" },
+  "license": "SEE LICENSE IN ../../LICENSE.md",
+  "engines": { "node": ">=18" }
+}
